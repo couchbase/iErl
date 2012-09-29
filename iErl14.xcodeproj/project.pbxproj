@@ -204,7 +204,7 @@
 		27167D3813C4E1BF001CC5B6 /* beam_bp.c in Sources */ = {isa = PBXBuildFile; fileRef = D9E24155123EA86F00AC152E /* beam_bp.c */; };
 		27167D3913C4E1BF001CC5B6 /* beam_catches.c in Sources */ = {isa = PBXBuildFile; fileRef = D9E24157123EA86F00AC152E /* beam_catches.c */; };
 		27167D3A13C4E1BF001CC5B6 /* beam_debug.c in Sources */ = {isa = PBXBuildFile; fileRef = D9E24159123EA86F00AC152E /* beam_debug.c */; };
-		27167D3B13C4E1BF001CC5B6 /* beam_emu.c in Sources */ = {isa = PBXBuildFile; fileRef = D9E2415A123EA86F00AC152E /* beam_emu.c */; };
+		27167D3B13C4E1BF001CC5B6 /* beam_emu.c in Sources */ = {isa = PBXBuildFile; fileRef = D9E2415A123EA86F00AC152E /* beam_emu.c */; settings = {COMPILER_FLAGS = "-O0"; }; };
 		27167D3C13C4E1BF001CC5B6 /* beam_load.c in Sources */ = {isa = PBXBuildFile; fileRef = D9E2415B123EA86F00AC152E /* beam_load.c */; };
 		27167D3D13C4E1BF001CC5B6 /* benchmark.c in Sources */ = {isa = PBXBuildFile; fileRef = D9E2415D123EA86F00AC152E /* benchmark.c */; };
 		27167D3E13C4E1BF001CC5B6 /* bif.c in Sources */ = {isa = PBXBuildFile; fileRef = D9E2415F123EA86F00AC152E /* bif.c */; };
@@ -2003,7 +2003,7 @@
 					"NO_RECURSE=1",
 					"USE_THREADS=1",
 				);
-				GCC_VERSION = 4.2;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
 				INSTALL_PATH = /usr/local/lib;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
@@ -2036,7 +2036,7 @@
 					"NO_RECURSE=1",
 					"USE_THREADS=1",
 				);
-				GCC_VERSION = 4.2;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
 				INSTALL_PATH = /usr/local/lib;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
